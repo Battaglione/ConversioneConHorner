@@ -4,13 +4,7 @@
 #define MAX 24
 #define BASEMAX 16
 int main (){
-    int cifra[MAX];
-    int num_cifre;
-    int decimale = 0;
-    int verifica;
-    int i;
-    int base;
-    int temp;
+    int cifra[MAX], num_cifre, decimale, verifica, i, base, temp;
     do{
         printf("Inserisci la base (MAX 16): ");
         scanf("%d", &base);
@@ -47,9 +41,4 @@ int main (){
     printf("Il risultato e' %d \n", decimale);
 
     return 0;
-
-
-
-
-
 }
