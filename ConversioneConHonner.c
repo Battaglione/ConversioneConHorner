@@ -18,7 +18,7 @@ int main (){
 
     for(i = 0; i < MAX; i++){
         do{
-            printf("Inserisci la cifra a base %d (inserire -1 o un numero minore per terminare; SE LA BASE È MAGGIORE DI 10, NON ISERIRE LE LETTERE MA INSERISCI DIRETTAMENTE IL NUMERO; MAX %d CIFRE): ", base, MAX);
+            printf("Inserisci la cifra a base %d (inserire un numero minore di 0 per terminare; SE LA BASE E' MAGGIORE DI 10, NON ISERIRE LE LETTERE MA INSERISCI DIRETTAMENTE IL NUMERO; MAX %d CIFRE): ", base, MAX);
             scanf("%d", &temp);
             printf("\n");
             if(temp <= -1){
