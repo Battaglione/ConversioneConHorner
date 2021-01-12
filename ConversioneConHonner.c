@@ -33,12 +33,15 @@ int main (){
         }while(verifica == 0);
     }
 
+    decimale = 0;
 
     for(i = 0; i < num_cifre; i++){
         decimale = base * decimale + cifra[i];
     }
 
     printf("Il risultato e' %d \n", decimale);
+
+    system("pause");
 
     return 0;
 }
